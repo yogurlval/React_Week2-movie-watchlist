@@ -1,0 +1,67 @@
+html {
+  background: #272727;
+  color: white;
+}
+
+button {
+  height: 44px;
+  font-size: 22px;
+  padding: 0px 12px;
+  color: #af25e1;
+  background-color: transparent;
+  border: 2px solid #b225e1;
+  border-radius: 3px;
+  min-width: 125px;
+}
+
+.page {
+  width: calc(100vw - 520px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn-container {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.movie-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.movie-card {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.movie-card img {
+  width: 100%;
+}
+main {
+  display: flex;
+  flex-direction: row;
+  background-color: pink;
+}
+
+.watchlist {
+  width: 500px;
+  height: calc(100vh - 70px);
+  overflow-y: scroll;
+  position: fixed;
+  /* top: 70px; */
+  right: 0;
+  bottom: 50px;
+  text-align: center;
+}
+
